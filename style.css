@@ -16,27 +16,10 @@ body div{
     background-color:hsl(0, 0%, 100%);
     margin: 32px auto;
 }
-H1{
-    font-family: 'Fraunces', serif;
-}
-p{
-    font-family:'Montserrat', sans-serif;
-}
-#prod{
-    font-family:'Montserrat', sans-serif;
-    letter-spacing: 4px;
-}
 img{
     width: 400px;
     height: 600px;
     border-radius: 20px;
-}
-#value{
-   color: hsl(158, 36%, 37%);
-}
-#value2{
-    font-family:'Montserrat', sans-serif;
-    text-decoration: line-through;
 }
 button{
     font-family:'Montserrat', sans-serif;
@@ -53,7 +36,7 @@ button:hover{
     background-color: hsl(212, 21%, 14%);
     cursor: pointer;
     transition: 4ms;
-    transition-delay: 2ms;
+    transition-delay: 4ms;
 }
 
 footer{
