@@ -29,6 +29,7 @@ p{
 img{
     width: 400px;
     height: 600px;
+    border-radius: 20px;
 }
 #value{
    color: hsl(158, 36%, 37%);
