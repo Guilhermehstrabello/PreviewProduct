@@ -43,17 +43,19 @@ img{
 button{
     font-family:'Montserrat', sans-serif;
     font-size: medium;
+    font-weight: 700;
     height: 6vh;
     border: 0ch;
     border-radius: 8px;
     color:hsl(0, 0%, 100%);
     background-color: hsl(158, 36%, 37%);
+    transition: 4ms;
+    transition-delay: 4ms;
 }
 button:hover{
     background-color: hsl(212, 21%, 14%);
     cursor: pointer;
-    transition: 4ms;
-    transition-delay: 4ms;
+    
 }
 #list1{
     color: hsl(158, 36%, 37%);
@@ -91,66 +93,4 @@ footer{
     text-align: center;
     padding: 60px;
     font-family:'Montserrat', sans-serif;
-}
-
-@media (min-width: 0px) and (max-width: 576px){
-    .container {
-        background-color: rgb(12, 219, 92);
-        transition: 2s;
-    }
-
-    img{
-        max-width: 30vw;
-        max-height: 30vh;
-        border-radius: 2ch;
-        transition: 2s;
-    }
-    
-}
-
-@media (min-width: 577px) and (max-width: 768px) {
-    .container {
-        background-color: blue;
-        transition: 2s;
-    }
-}
-
-@media (min-width: 769px) and (max-width: 1200px) {
-    .container {
-        background-color: crimson;
-        transition: 2s;
-    }
-}
-
-@media (min-width: 1201px) and (max-width: 2500px) {
-    .container {
-        background-color: rgb(209, 17, 235);
-        transition: 2s;
-    }
-}
-
-
-
-
-@media screen and (max-width: 900px) {
-    #list1{
-        font-size: 2em;
-    }
-    #list2{
-        font-size: 0.8em;
-    }
-    button{
-        height: 4vh;
-    }
-    h1{
-        font-family: 'Fraunces', serif;
-        width: 80%;
-        font-size: 36px;
-    }
-    h4{
-        font-size: 12px;
-    }
-    p{
-        font-size: 1rem;
-    }
 }
