@@ -10,7 +10,7 @@ body{
     font-size: 14px;
 }
 .container{
-    max-width: 800px;
+    max-width: 80vh;
     border-radius: 20px;
     background-color:hsl(0, 0%, 100%);
     margin: 110px auto;
@@ -34,7 +34,7 @@ li{
     display: inline;
 }
 img{
-    width: 40vw;
+    width: 39vw;
     height: 60vh;
     border-radius: 2ch;
 }
